@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  color: var(--navy-blue);
+  color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -138,7 +138,7 @@ h2 {
 }
 
 .adress-class {
-  font-size: normal;
+  font-style: normal;
 }
 
 .kontakt {
@@ -250,6 +250,10 @@ h2 {
   color: var(--slate);
 }
 
-.studio {
-  color: #f4f4fd;
+.studio-top {
+  color: var(--navy-blue);
+}
+
+.studio-bottom {
+  color: var(--iris);
 }
