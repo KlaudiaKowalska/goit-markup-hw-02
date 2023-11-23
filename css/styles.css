@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  color: var(--iris);
+  color: var(--navy-blue);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -30,10 +30,6 @@ body {
 
 .link {
   text-decoration: none;
-}
-
-.studio {
-  color: var(--navy-blue);
 }
 
 .button-index {
@@ -73,6 +69,7 @@ body {
 
 .button-all:focus {
   background-color: #404bbf;
+  color: #ffffff;
 }
 
 .button1 {
@@ -125,7 +122,7 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e3f42;
+  color: var(--navy-blue);
 }
 
 .index:hover {
@@ -134,6 +131,10 @@ h2 {
 
 .index:focus {
   color: #404bbf;
+}
+
+.adress {
+  font-size: normal;
 }
 
 .adress-class {
@@ -148,15 +149,19 @@ h2 {
   text-decoration: none;
 }
 
+.kontakt:hover {
+  color: #404bbf;
+}
+
 .kontakt:focus {
   color: #404bbf;
 }
 
-.section1 {
+.section_ {
   background-color: #2e2f42;
 }
 
-.h1-class {
+.ha-class {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -164,7 +169,7 @@ h2 {
   color: #ffffff;
 }
 
-.h3-class {
+.hc-class {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -179,7 +184,7 @@ h2 {
   color: var(--slate);
 }
 
-.h2-class {
+.hb-class {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -188,7 +193,7 @@ h2 {
   color: var(--navy-blue);
 }
 
-.section2 {
+.sectionb {
   background-color: #f4f4fd;
 }
 
@@ -205,7 +210,7 @@ h2 {
   background-color: #ffffff;
 }
 
-.postacie1 {
+.postaciea {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -213,7 +218,7 @@ h2 {
   color: var(--navy-blue);
 }
 
-.postacie2 {
+.postacieb {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -230,7 +235,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.portfolio-lista {
+.porfolio-lista {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -238,9 +243,13 @@ h2 {
   color: var(--navy-blue);
 }
 
-.portfolio-akapity {
+.porfolio-akapity {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.studio {
+  color: #f4f4fd;
 }
