@@ -43,10 +43,7 @@ body {
   cursor: pointer;
 }
 
-.button-index:hover {
-  background-color: var(--ocean);
-}
-
+.button-index:hover,
 .button-index:focus {
   background-color: var(--ocean);
 }
@@ -112,7 +109,7 @@ body {
   font-style: normal;
 }
 
-.kontakt {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,15 +117,12 @@ body {
   text-decoration: none;
 }
 
-.kontakt:hover {
+.contact:hover,
+.contact:focus {
   color: var(--ocean);
 }
 
-.kontakt:focus {
-  color: var(--ocean);
-}
-
-.opisy {
+.descriptions {
   background-color: var(--navy-blue);
 }
 
